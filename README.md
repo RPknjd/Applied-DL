@@ -19,7 +19,8 @@ In this work, I will present a structured pruning method (Filter) with a Group-L
 
 ## Estimated Timeline
 1. Design the Neural Network: 40h
-2. Neural Network training and tuning: 20h
+2. Neural Network training and tuning: 25h
 3. Implementation: 8h
-4. Analysing and compering results: 4h
-5. Report writing: 4h
+4. Analysing and compering results: 5h
+5. Report writing: 5h
+6. preparing presentaion: 5h
