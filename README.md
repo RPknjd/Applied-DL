@@ -10,8 +10,8 @@ that is initialized such that—when trained in isolation—it can match the tes
 
 
 ## Project Goal
- 
-### Pruning Methods
+In this work, I will present a structured pruning method (Filter) with a Group-Lasso regularization for CNNs where we remove whole network filters together with their connecting feature maps from CNNs. In addition, I will examine some unstructured pruning methods, like weight pruning, with different approaches and methods, like sparse training and fine-tuning. I will analyze if they improve model accuracy or are without significant accuracy loss. Moreover, if I have time, I will add some optimization techniques.
+ ### Pruning Methods
 ### Datasets
 1.[CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html)
 2.[ImageNet](https://paperswithcode.com/dataset/imagenet)
