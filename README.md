@@ -10,5 +10,15 @@ that is initialized such that—when trained in isolation—it can match the tes
 
 
 ## Project Goal
+ 
 ### Pruning Methods
+### Datasets
+1.[CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html)
+2.[ImageNet](https://paperswithcode.com/dataset/imagenet)
+
 ## Estimated Timeline
+1. Design the Neural Network: 40h
+2. Neural Network training and tuning: 20h
+3. Implementation: 8h
+4. Analysing and compering results: 4h
+5. Report writing: 4h
