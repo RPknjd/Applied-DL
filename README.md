@@ -10,7 +10,7 @@ that is initialized such that—when trained in isolation—it can match the tes
 
 
 ## Project Goal
-In this work, I will present a structured pruning method (Filter) with a Group-Lasso regularization for CNNs where we remove whole network filters together with their connecting feature maps from CNNs. In addition, I will examine some unstructured pruning methods, like weight pruning, with different approaches and methods, like sparse training and fine-tuning. I will analyze if they improve model accuracy or are without significant accuracy loss. Moreover, if I have time, I will add some optimization techniques.
+In this work, I will present a structured pruning method (Filter) with a Group-Lasso regularization for CNNs where we remove whole network filters together with their connecting feature maps from CNNs in classification task. In addition, I will examine some unstructured pruning methods, like weight pruning, with different approaches and methods, like sparse training and fine-tuning. I will analyze if they improve model accuracy or are without significant accuracy loss. Moreover, if I have time, I will add some optimization techniques.
  ### Pruning Methods
  Structured and unstructured pruning methods are two different techniques for reducing the size of neural networks by removing unimportant weights, filters, or neurons. Here, I will compare some of the two groups' methods to find meaningful insights into their respective advantages, trade-offs, and applications in optimizing neural network models. 
 ### Dataset
