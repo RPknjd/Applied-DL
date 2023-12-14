@@ -48,3 +48,4 @@ In this work, I will present a structured pruning method (Filter) with a Group-L
 1. [Pruning Neural Networks](https://pohsoonchang.medium.com/neural-network-pruning-update-cda56343e5a2)
 2. https://towardsdatascience.com/neural-network-pruning-101-af816aaea61
 3. https://intellabs.github.io/distiller/pruning.html#lets-define-sparsity
+4. https://www.youtube.com/watch?v=jeFMWtddkTs
