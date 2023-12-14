@@ -10,12 +10,14 @@ There are various methods for pruning a neural network, and the approach depends
 that is initialized such that—when trained in isolation—it can match the test accuracy of the original network after training for at most the same number of iterations".
 
 [Alex Renda ](https://arxiv.org/pdf/2003.02389.pdf) with his colleagues, discovered an alternative to fine-tuning (train the resultant pruned network): rewind the remaining weights to their values from earlier training and re-train the resulting network for the remainder of the original training process. They demonstrate the value of rewinding as a general pruning framework and compare rewinding and fine-tuning on CIFAR-10 and ImageNet networks. Their finding shows that a wide range of rewind points achieve higher accuracy than fine-tuning across all tested networks.
+[Wei Wen ](https://arxiv.org/pdf/1608.03665.pdf) and his colleagues proposed a Structured Sparsity Learning (SSL) method to learn a compressed structure  (filters, channels, filter shapes, and layer depth) of DNNs by group Lasso regularization during the training. They stated that Group Lasso is an efficient regularization to learn sparse structures.
 
 ## Pruning structures
 Structured and unstructured pruning methods are two different techniques for reducing the size of neural networks by removing unimportant weights, filters, or neurons.
 
 ### Structured pruning
-Structured pruning removes a structure (building block) of the target neural network, such as, Neuron for a Fully Connected Layer or Channel of filter for a Convolution Layer and etc. Structured pruning means that by removing a particular structure of a network, we get (weight) matrices with smaller parameters (reduced size of parameters). there are some pruning criteria for structured pruning to decide whether a neuron or channel of CNN is important or unimportant.
+Structured pruning removes a structure (building block) of the target neural network, such as, Neuron for a Fully Connected Layer or Channel of filter for a Convolution Layer and etc. Structured pruning means that by removing a particular structure of a network, we get (weight) matrices with smaller parameters (reduced size of parameters). there are some pruning criteria for structured pruning to decide whether a neuron or channel of CNN is important or unimportant. Group Lasso can effectively zero out all weights in some groups in DNNs.
+some groups
 
 ### Unstructured pruning
 Unstructured pruning (magnitude pruning) converts some of the weights with smaller magnitude into zeros.  It means that we converts an original dense (lots of non-zero values) network into a sparse (lots of zeros) network. The size of the weight matrix of the sparse network is the same as the size of parameter matrix of the original network. but Sparse network has more zeros in their parameter matrix.
