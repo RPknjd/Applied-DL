@@ -39,6 +39,8 @@ In this work, I will present a structured pruning method (Filter) with a Group-L
 5. Report writing: 5h
 6. preparing presentaion: 5h
 
+## References
+
 
 ## Useful links
 1. [Pruning Neural Networks](https://pohsoonchang.medium.com/neural-network-pruning-update-cda56343e5a2)
