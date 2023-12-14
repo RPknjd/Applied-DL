@@ -23,8 +23,14 @@ some groups
 ### Unstructured pruning
 Unstructured pruning (magnitude pruning) converts some of the weights with smaller magnitude into zeros.  It means that we converts an original dense (lots of non-zero values) network into a sparse (lots of zeros) network. The size of the weight matrix of the sparse network is the same as the size of parameter matrix of the original network. but Sparse network has more zeros in their parameter matrix.
 
-## Project Goal
-In this work, I will present a structured pruning method (Filter) with a Group-Lasso regularization for CNNs where we remove whole network filters together with their connecting feature maps from CNNs in classification task. In addition, I will examine some unstructured pruning methods, like weight pruning, with different approaches and methods. I will analyse if they improve model accuracy or are without significant accuracy loss. Moreover, if I have time, I will add some optimization techniques.
+## Goals
+In this work, I will present a structured pruning method (Filter) with a Group-Lasso regularization for CNNs where we remove whole network filters together with their connecting feature maps from CNNs in the classification task. In addition, I will examine some unstructured pruning methods, like weight pruning, with different approaches and methods. I will analyse if they improve model accuracy or are without significant accuracy loss. Moreover, if I have time, I will add some optimization techniques.
+
+1. Implementation of unstructured pruning method 
+      - Implementation of weight pruning.
+      - Calculation metrics (Accuracy, Loss, Size).
+      - Compare the pruned model with the original model.
+2. Implementation of structured pruning method
 
  
 ### Dataset
