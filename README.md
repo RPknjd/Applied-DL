@@ -31,6 +31,9 @@ In this work, I will present a structured pruning method (Filter) with a Group-L
       - Calculation metrics (Accuracy, Loss, Size).
       - Compare the pruned model with the original model.
 2. Implementation of structured pruning method
+      - Implements 
+      - Implements 
+      - Analysing filter-wise, channel-wise structured sparsity
 
  
 ### Dataset
@@ -38,12 +41,12 @@ In this work, I will present a structured pruning method (Filter) with a Group-L
 
 
 ## Estimated Timeline
-1. Design the Neural Network: 40h
-2. Neural Network training and tuning: 25h
-3. Implementation: 8h
-4. Analysing and compering results: 5h
-5. Report writing: 5h
-6. preparing presentaion: 5h
+1. Unstructured pruning:    planned: 15h    Actual: 15h
+2. Structured pruning:      planned: 25h    Actual: 28h
+3. Analysing results:       planned: 5h     Actual: 3h
+4. Presentation:            planned: 8h     Actual: 
+5. Application:             planned: 5h     Actual: 
+6. Report:                  planned: 5h     Actual: 
 
 ## References
 
