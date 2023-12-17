@@ -33,16 +33,24 @@ In this work, I will present a structured pruning method (Filter) with a Group-L
 2. Implementation of structured pruning method
       - Implementation of NN training/testing task without Pruning.
       - Implementation of NN training/testing task with Pruning
+  
+3. Given that I am a beginner in deep learning, gaining a better understanding of its structure and concepts through this work.is my personal goal        
        
 ### Dataset
 1.[CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html)
 
 ## Estimated Timeline
-1. Unstructured Pruning:    planned: 15h    Actual: 15h
-2. Structured Pruning:      planned: 25h    Actual: 30h
+1. Unstructured Pruning (Understanding its concept, set metrics. ):    Planned: 15h    Actual: 15h
+2. Structured Pruning (Understanding its concept, set metrics. ):      Planned: 25h    Actual: 30h
 3. Analysing results:       planned: 5h     Actual: 3h
 4. Presentation:            planned: 10h     Actual: 
 5. Application:             planned: 5h     Actual: 
-6. Report:                  planned: 5h     Actual: 
+6. Report:                  planned: 5h     Actual:
+
+## Findings
+1. A model with filter pruning and group lasso regularization is faster during training and testing. This is a positive outcome, as reduced computation time can be a significant advantage. The training time decreased from 21.443 seconds to 13.935 seconds, and the testing time decreased from 16.215 seconds to 0.041 seconds.
+2. 
+
+   
 
 
