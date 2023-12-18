@@ -34,7 +34,7 @@ In this work, I will present a structured pruning method (Filter) with a Group-L
       - Implementation of NN training/testing task without Pruning.
       - Implementation of NN training/testing task with Pruning
   
-3. Given that I am a beginner in deep learning, gaining a better understanding of its structure and concepts through this work.is my personal goal        
+3. Given that I am a beginner in deep learning, gaining a better understanding of its structure and concepts through this work, is my personal goal.        
        
 ### Dataset
 1.[CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html)
