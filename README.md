@@ -2,7 +2,7 @@
 ## Overview
 
 Building large neural networks helps them train successfully and perform better in various tasks. However, this makes them expensive, more time-consuming, and more challenging to distribute with more storage space. Therefore, Pruning was introduced to reduce the models' size by removing parameters from the existing network while maintaining accuracy. In other words, Pruning is a set of techniques that lower the computational demands of a neural network by removing weights, filters, neurons, or other structures.
-There are various methods for pruning a neural network, and the approach depends on what to prune, when we would like to prune and how to cope with this challenge of pruning parts without harming the network.
+There are various methods for pruning a neural network, and the approach depends on what to prune when we would like to prune, and how to cope with this challenge of pruning parts without harming the network.
 
 ## Project Background
 
@@ -24,7 +24,7 @@ some groups
 Unstructured Pruning (magnitude pruning) converts some weights with smaller magnitudes into zeros. It means we convert an original dense (lots of non-zero values) network into a sparse (lots of zeros) network. The size of the weight matrix of the sparse network is the same as the size of the parameter matrix of the original network. However, the Sparse network has more zeros in its parameter matrix.
 
 ## Goals
-In this work, I will present a structured pruning method (Filter) with a Group-Lasso regularization for CNNs where we remove whole network filters together with their connecting feature maps from CNNs in the classification task. In addition, I will examine some unstructured pruning methods, like weight pruning, with different approaches and methods. I will analyze if they improve model accuracy or are without significant accuracy loss. Moreover, if I have time, I will add some optimization techniques.
+This work will present a structured pruning method (filter) with a Group-Lasso regularization for CNNs. We remove whole network filters and their connecting feature maps from CNNs in the classification task. In addition, I will examine some unstructured pruning methods, like weight pruning, with different approaches and methods. I will analyze if they improve model accuracy or are without significant accuracy loss. Moreover, if I have time, I will add some optimization techniques.
 
 1. Implementation of unstructured pruning method 
       - Implementation of weight pruning.
@@ -32,9 +32,9 @@ In this work, I will present a structured pruning method (Filter) with a Group-L
       - Compare the pruned model with the original model.
 2. Implementation of structured pruning method
       - Implementation of NN training/testing task without Pruning.
-      - Implementation of NN training/testing task with Pruning
+      - Implementation of NN training/testing task with filter Pruning
   
-3. Given that I am a beginner in deep learning, gaining a better understanding of its structure and concepts through this work, is my personal goal.        
+3. Since I am a beginner in deep learning, gaining a better understanding of its structure and concepts through this work, is my personal goal.        
        
 ### Dataset
 1.[CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html)
@@ -48,7 +48,7 @@ In this work, I will present a structured pruning method (Filter) with a Group-L
 6. Report:                  planned: 5h     Actual:
 
 ## Findings
-1. A model with filter pruning and group lasso regularization is faster during training and testing. This is a positive outcome, as reduced computation time can be a significant advantage. The training time decreased from 21.443 seconds to 13.935 seconds, and the testing time decreased from 16.215 seconds to 0.041 seconds.
+1. A model with filter pruning and group lasso regularization is faster during training and testing. This is a positive outcome, as reduced computation time can be a significant advantage. The training and testing time also decreased 
 2. 
 
    
