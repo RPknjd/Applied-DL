@@ -1,0 +1,13 @@
+Useful articles:
+https://arxiv.org/abs/1608.03665
+https://arxiv.org/abs/1707.06168
+
+
+Useful github codes:
+https://github.com/lottery-ticket/rewinding-iclr20-public
+https://github.com/jacobgil/pytorch-pruning/blob/master/README.md
+https://github.com/wenwei202/caffe/tree/scnn
+
+Useful websites:
+https://towardsdatascience.com/neural-network-pruning-101-af816aaea61
+https://jacobgil.github.io/deeplearning/pruning-deep-learning

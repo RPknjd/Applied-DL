@@ -1,0 +1,10 @@
+Overview of the libraries and APIs used:
+1. TensorFlow and Keras:
+2. TensorBoard
+3. PyTorch
+4. Other Standard Libraries: numpy, os, datetime, tempfile,zipfile,Matplotlib
+5. HTML Table Display
+6.metrics used for evaluation are: 
+Training/Testing Loss function: Categorical Crossentropy
+Accuracy
+Total Sparse Weights
