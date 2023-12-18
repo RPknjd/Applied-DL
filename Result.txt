@@ -1,3 +1,22 @@
+Result of weight pruning:
+Size of the unpruned model before compression: 4.11 Mb
+Size of the unpruned model after compression: 3.79 Mb
+Size of the pruned model before compression: 16.28 Mb
+Size of the pruned model after compression: 3.27 Mb
+
+Unpruned Model:
+Test loss: 0.9289465546607971
+Test accuracy: 0.6873999834060669
+
+Pruned Model:
+Test loss: 0.9116255044937134
+Test accuracy: 0.7014999985694885
+313/313 [==============================] - 1s 2ms/step
+313/313 [==============================] - 1s 2ms/step
+
+
+
+
 Result of training model without applying Filter pruning:
 Train: Loss: 1.843, ACC: 63.072 (31536/50000)
 Train Time: 21.443
