@@ -48,8 +48,8 @@ This work will present a structured pruning method (filter) with a Group-Lasso r
 6. Report:                  planned: 5h     Actual:
 
 ## Findings
-1. A model with filter pruning and group lasso regularization is faster during training and testing. This is a positive outcome, as reduced computation time can be a significant advantage. The training and testing time also decreased 
-2. 
+1. A model with filter pruning and group lasso regularization is faster during training and testing. This is a positive outcome, as reduced computation time can be a significant advantage. The training and testing time also decreased.
+2. The total sparsity across all layers is around 74.103%. Each layer has a different level of sparsity, with the convolutional layers being less sparse than the fully connected layers (fc1, fc2).
 
    
 
