@@ -44,7 +44,7 @@ This work will present a structured pruning method (filter) with a Group-Lasso r
 2. Structured Pruning (Understanding its concept, set metrics. ):      Planned: 25h    Actual: 30h
 3. Analysing results:       planned: 5h     Actual: 3h
 4. Presentation:            planned: 10h     Actual: 
-5. Application:             planned: 5h     Actual: 
+5. Application:             planned: 5h     Actual: 15h
 6. Report:                  planned: 5h     Actual:
 
 ## Findings
