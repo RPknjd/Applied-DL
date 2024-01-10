@@ -1,8 +1,1 @@
-Overview of the libraries and APIs used:
-1. TensorFlow and Keras:
-2. TensorBoard
-3. Other Standard Libraries: numpy, os, datetime, tempfile,zipfile,Matplotlib
-4. HTML Table Display
-5.metrics used for evaluation are: 
-Loss function: Categorical Crossentropy
-Metric: Accuracy
+
