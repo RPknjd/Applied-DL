@@ -1,4 +1,4 @@
-# Analysing Pruning Methods in Neural Networks and Their Influence on Accuracy
+# Analysing Pruning Methods in Neural Networks and Their Influence on Accuracy 
 ## Overview
 
 Building large neural networks helps them train successfully and perform better in various tasks. However, this makes them expensive, more time-consuming, and more challenging to distribute with more storage space. Therefore, Pruning was introduced to reduce the models' size by removing parameters from the existing network while maintaining accuracy. In other words, Pruning is a set of techniques that lower the computational demands of a neural network by removing weights, filters, neurons, or other structures.
@@ -43,9 +43,9 @@ This work will present a structured pruning method (filter) with a Group-Lasso r
 1. Unstructured Pruning (Understanding its concept, set metrics. ):    Planned: 15h    Actual: 15h
 2. Structured Pruning (Understanding its concept, set metrics. ):      Planned: 25h    Actual: 30h
 3. Analysing results:       planned: 5h     Actual: 3h
-4. Presentation:            planned: 10h     Actual: 
+4. Presentation:            planned: 10h     Actual: 15h
 5. Application:             planned: 5h     Actual: 15h
-6. Report:                  planned: 5h     Actual:
+6. Report:                  planned: 5h     Actual: 4h
 
 ## Findings
 1. A model with filter pruning and group lasso regularization is faster during training and testing. This is a positive outcome, as reduced computation time can be a significant advantage. The training and testing time also decreased.
