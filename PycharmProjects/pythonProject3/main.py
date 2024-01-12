@@ -1,3 +1,6 @@
+# You can run the app using the command 'streamlit run main.py'  in terminal
+# Please make sure to adjust the 'model_path' variable according to the location where your model is saved
+
 import streamlit as st
 from keras.models import load_model
 from keras.utils import custom_object_scope
